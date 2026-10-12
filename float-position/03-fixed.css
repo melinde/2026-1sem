@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #252525;
+  background-color: #fafafa;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Fælles styling til alle sektioner */
+
+section {
+  min-height: 75vh;
+  padding: 30px;
+  margin: 24px 0;
+  border-radius: 16px;
+}
+
+/* Baggrundsfarver */
+.section-1 {
+  background-color: #d9f2ec;
+}
+.section-2 {
+  background-color: #fbe0dc;
+}
+.section-3 {
+  background-color: #fff0b8;
+}
+
+/* Knap som bliver på skærmen */
+.to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  padding: 14px 20px;
+  background-color: #263d43;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.to-top:hover {
+  background-color: #42636a;
+}

@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #faf8f3;
+  color: #223b34;
+}
+
+.container {
+  width: 90%;
+  max-width: 920px;
+  margin: 48px auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.cards {
+  margin-top: 24px;
+}
+
+/* Fælles styling for begge kort */
+
+.card {
+  float: left;
+  width: 48%;
+  padding: 20px;
+  border: 2px solid #a9cfc0;
+  border-radius: 14px;
+  background-color: #dff3ee;
+}
+
+/* Ekstra styling til kort 2 */
+
+.card-2 {
+  margin-left: 4%;
+  background-color: #ffe8e2;
+  border-color: #dfb9af;
+}
+
+/* Stopper float */
+
+.clr {
+  clear: both;
+}
+
+.after {
+  padding-top: 18px;
+}

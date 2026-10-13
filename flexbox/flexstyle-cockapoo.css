@@ -1,0 +1,78 @@
+/* Samme lyse pastelfarver som i de øvrige Flexbox-øvelser */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #293b39;
+    background-color: #f7f8fa;
+    margin: 24px;
+}
+
+h1, h2 {
+    color: #293b39;
+}
+
+h2 {
+    font-size: 1.15rem;
+    margin-top: 32px;
+}
+
+/* Bokse uden Flexbox */
+.container div {
+    background-color: #ddf4f1;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+
+/* Fælles styling af flexcontainerne */
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    border: 1px solid #e2e6e9;
+    padding: 10px;
+}
+
+.flex-container > div {
+    background-color: #ddf4f1;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+
+/* Fordel boksene med luft omkring */
+.jaevnt {
+    justify-content: space-around;
+}
+
+/* Lad boksene hoppe ned på en ny række */
+.hop-ned {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Placer boksene under hinanden */
+.lodret {
+    flex-direction: column;
+}
+
+/* Flyt boks 2 til starten og giv den en anden farve */
+.flex-container > .special {
+    background-color: #fde4e0;
+    order: -1;
+}
+
+/* Giv den tredje boks en lysegul farve */
+.flex-container > div:nth-child(3) {
+    background-color: #fff2bd;
+}
+
+/* Billedet følger sin boks */
+.my-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

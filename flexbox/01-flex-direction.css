@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  padding: 20px;
+}
+
+/* Fælles styling for containerne */
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #e2e6e9;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
+/* Boksene */
+.box {
+  width: 140px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Boksenes farver */
+.box-1 {
+  background-color: #ddf4f1;
+}
+
+.box-2 {
+  background-color: #fde4e0;
+}
+
+.box-3 {
+  background-color: #fff2bd;
+}
+
+/* Vandret placering */
+.row {
+  flex-direction: row;
+}
+
+/* Lodret placering */
+.column {
+  flex-direction: column;
+}
+
+/* 
+Jeg har brugt display: flex to forskellige steder:
+På .container bestemmer Flexbox, om boksene skal placeres vandret eller lodret.
+På .box bruges Flexbox kun til at centrere tallene inde i boksene:
+
+Bemærk også, at justify-content og align-items følger henholdsvis main axis og cross axis. Det betyder, at deres retning skifter, når man ændrer flex-direction.
+
+*/

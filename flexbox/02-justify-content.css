@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  padding: 20px;
+}
+
+/* Fælles styling for containerne */
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #e2e6e9;
+  border-radius: 10px;
+  min-height: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Boksene */
+.box {
+  width: 140px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Boksenes farver */
+.box-1 {
+  background-color: #ddf4f1;
+}
+
+.box-2 {
+  background-color: #fde4e0;
+}
+
+.box-3 {
+  background-color: #fff2bd;
+}
+
+/* Justify-content */
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}

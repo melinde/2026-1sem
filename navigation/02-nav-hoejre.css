@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  height: 200px;
+  background-color: #678891;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  background-color: #96c8d4;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #7599a2;
+}
+
+nav a.active {
+  background-color: #7599a2;
+  /* border-bottom: 4px solid #fff; */
+}

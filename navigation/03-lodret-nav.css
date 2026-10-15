@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f4ee;
+  color: #31483c;
+}
+
+/* Navigation og indhold placeres ved siden af hinanden */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Lodret navigation */
+nav {
+  width: 240px;
+  background-color: #31483c;
+  padding: 30px 20px;
+  /* flex-shrink: 0; */
+}
+
+nav h2 {
+  color: white;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav li a:hover {
+  background-color: #536e5c;
+}
+
+/* Både header og billede får samme afstand fra kanten */
+main {
+  flex: 1;
+  min-width: 0;
+  padding: 60px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 42px;
+}
+
+header p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Knap */
+.button {
+  display: inline-block;
+  background-color: #31483c;
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #536e5c;
+}
+
+/* Kaffebillede */
+main img {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
